@@ -1,0 +1,185 @@
+{
+  "host": "www.wikipedia.org",
+  "runs": [
+    {
+      "client": "curl",
+      "label": "curl (Windows/Schannel)",
+      "category": "cli",
+      "sni": "www.wikipedia.org",
+      "start": 1793897410.4963963,
+      "end": 1793897411.0411358,
+      "status": "ok"
+    },
+    {
+      "client": "curl",
+      "label": "curl (Windows/Schannel)",
+      "category": "cli",
+      "sni": "www.wikipedia.org",
+      "start": 1793897413.0417993,
+      "end": 1793897413.534761,
+      "status": "ok"
+    },
+    {
+      "client": "powershell",
+      "label": "PowerShell Invoke-WebRequest (.NET)",
+      "category": "cli",
+      "sni": "www.wikipedia.org",
+      "start": 1793897415.5351748,
+      "end": 1793897416.2498484,
+      "status": "ok"
+    },
+    {
+      "client": "powershell",
+      "label": "PowerShell Invoke-WebRequest (.NET)",
+      "category": "cli",
+      "sni": "www.wikipedia.org",
+      "start": 1793897418.2499769,
+      "end": 1793897419.1078897,
+      "status": "ok"
+    },
+    {
+      "client": "python-urllib",
+      "label": "Python urllib (OpenSSL)",
+      "category": "library",
+      "sni": "www.wikipedia.org",
+      "start": 1793897421.1082025,
+      "end": 1793897421.519805,
+      "status": "ok"
+    },
+    {
+      "client": "python-urllib",
+      "label": "Python urllib (OpenSSL)",
+      "category": "library",
+      "sni": "www.wikipedia.org",
+      "start": 1793897423.5204039,
+      "end": 1793897423.9431317,
+      "status": "ok"
+    },
+    {
+      "client": "python-requests",
+      "label": "Python requests (OpenSSL)",
+      "category": "library",
+      "sni": "www.wikipedia.org",
+      "start": 1793897425.9436522,
+      "end": 1793897426.6354406,
+      "status": "ok"
+    },
+    {
+      "client": "python-requests",
+      "label": "Python requests (OpenSSL)",
+      "category": "library",
+      "sni": "www.wikipedia.org",
+      "start": 1793897428.6358645,
+      "end": 1793897429.4175136,
+      "status": "ok"
+    },
+    {
+      "client": "python-custom",
+      "label": "Custom Python script (TLS1.2, 3 ciphers)",
+      "category": "custom",
+      "sni": "www.wikipedia.org",
+      "start": 1793897431.4178052,
+      "end": 1793897431.7250247,
+      "status": "ok"
+    },
+    {
+      "client": "python-custom",
+      "label": "Custom Python script (TLS1.2, 3 ciphers)",
+      "category": "custom",
+      "sni": "www.wikipedia.org",
+      "start": 1793897433.725455,
+      "end": 1793897434.0317025,
+      "status": "ok"
+    },
+    {
+      "client": "handcrafted",
+      "label": "Handcrafted raw TLS client",
+      "category": "custom",
+      "sni": "www.wikipedia.org",
+      "start": 1793897436.032059,
+      "end": 1793897436.316331,
+      "status": "ok"
+    },
+    {
+      "client": "handcrafted",
+      "label": "Handcrafted raw TLS client",
+      "category": "custom",
+      "sni": "www.wikipedia.org",
+      "start": 1793897438.3169358,
+      "end": 1793897438.569534,
+      "status": "ok"
+    },
+    {
+      "client": "chrome",
+      "label": "Google Chrome",
+      "category": "browser",
+      "sni": "www.wikipedia.org",
+      "start": 1793897440.5755827,
+      "end": 1793897442.0778213,
+      "status": "ok"
+    },
+    {
+      "client": "chrome",
+      "label": "Google Chrome",
+      "category": "browser",
+      "sni": "www.wikipedia.org",
+      "start": 1793897444.0788767,
+      "end": 1793897446.6809695,
+      "status": "ok"
+    },
+    {
+      "client": "edge",
+      "label": "Microsoft Edge",
+      "category": "browser",
+      "sni": "www.wikipedia.org",
+      "start": 1793897448.6817164,
+      "end": 1793897452.7574887,
+      "status": "ok"
+    },
+    {
+      "client": "edge",
+      "label": "Microsoft Edge",
+      "category": "browser",
+      "sni": "www.wikipedia.org",
+      "start": 1793897454.7597094,
+      "end": 1793897458.5669246,
+      "status": "ok"
+    },
+    {
+      "client": "spoof-ja3",
+      "label": "SPOOF: raw client impersonating Chrome",
+      "category": "spoof",
+      "sni": "www.wikipedia.org",
+      "start": 1793897460.5672786,
+      "end": 1793897460.8715494,
+      "status": "ok"
+    },
+    {
+      "client": "spoof-ja3",
+      "label": "SPOOF: raw client impersonating Chrome",
+      "category": "spoof",
+      "sni": "www.wikipedia.org",
+      "start": 1793897462.871903,
+      "end": 1793897463.1268904,
+      "status": "ok"
+    },
+    {
+      "client": "spoof-ja4r",
+      "label": "SPOOF: raw client impersonating Chrome",
+      "category": "spoof",
+      "sni": "www.wikipedia.org",
+      "start": 1793897465.1274655,
+      "end": 1793897465.3873494,
+      "status": "ok"
+    },
+    {
+      "client": "spoof-ja4r",
+      "label": "SPOOF: raw client impersonating Chrome",
+      "category": "spoof",
+      "sni": "www.wikipedia.org",
+      "start": 1793897467.3878162,
+      "end": 1793897467.646645,
+      "status": "ok"
+    }
+  ]
+}

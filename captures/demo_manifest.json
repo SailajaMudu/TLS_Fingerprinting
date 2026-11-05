@@ -1,0 +1,41 @@
+{
+  "host": "www.wikipedia.org",
+  "runs": [
+    {
+      "client": "curl",
+      "label": "curl (Windows/Schannel)",
+      "category": "cli",
+      "sni": "www.wikipedia.org",
+      "start": 1793897542.9210904,
+      "end": 1793897543.393852,
+      "status": "ok"
+    },
+    {
+      "client": "python-urllib",
+      "label": "Python urllib (OpenSSL)",
+      "category": "library",
+      "sni": "www.wikipedia.org",
+      "start": 1793897545.3946438,
+      "end": 1793897545.9657567,
+      "status": "ok"
+    },
+    {
+      "client": "handcrafted",
+      "label": "Handcrafted raw TLS client",
+      "category": "custom",
+      "sni": "www.wikipedia.org",
+      "start": 1793897547.9662018,
+      "end": 1793897548.3233955,
+      "status": "ok"
+    },
+    {
+      "client": "chrome",
+      "label": "Google Chrome",
+      "category": "browser",
+      "sni": "www.wikipedia.org",
+      "start": 1793897550.3288138,
+      "end": 1793897552.4173493,
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.db
+captures/*.pcap
+captures/*.pcapng
+captures/*.log
+captures/scratch.db
+!captures/test.pcap
+tlsfp.db

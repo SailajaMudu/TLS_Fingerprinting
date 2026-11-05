@@ -1,0 +1,6 @@
+scapy>=2.5
+psutil>=5.9          # --resolve-process / --auto-learn (ground-truth process labels)
+pytest>=7            # tests
+# optional
+# redis>=5           # --redis / db sync-redis  (Redis or Valkey KV store)
+# requests           # only used by scripts/gen_traffic.py "python-requests" client
